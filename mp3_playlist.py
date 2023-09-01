@@ -60,7 +60,7 @@ class MP3Playlist:
     
     def shuffle_playlist(self):
         playlist_list = list(self.playlist_queue.queue)
-        random.shuffle(playlist_list)
+        random.shuffle(playlist)
         self.playlist_queue.queue = playlist_list
         print("Playlist shuffled.")
     
@@ -94,7 +94,7 @@ total_duration = playlist.calculate_duration()
 print(f"Total playlist duration: {total_duration}")
 
 # Enqueue a track
-track_to_enqueue = "New Song - New Artist"
+track_to_enqueue = "Bad Liar - Imagine Dragons"
 playlist.enqueue_track(track_to_enqueue)
 
 # Remove a track
@@ -115,4 +115,3 @@ playlist.clear_playlist()
 
 # Check if the playlist is empty
 print("Is playlist empty?", playlist.is_empty())
-

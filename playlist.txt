@@ -1,4 +1,3 @@
-Song 0 - God is king - 180
-Song 1 - Family man - 200
-Song 2 - We together - 300
-Song3 -  Broken pieces - 700
+Broken pieces.mp3", "2:22"
+Bruises.mp3", "1:23"
+Bad liar.mp3", "4:10"
